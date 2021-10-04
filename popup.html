@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid - 19</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainbody">
+    <div class="header">Covid-19</div>
+    <div class="container">
+        <center>
+    <form id="form-data" autocomplete="on">
+            <div class="enter-country">
+                <b>Enter country name</b>
+            </div>
+            <div>
+                <input type="text" id="country-name">
+            </div>
+            <br>
+            <button class="search-btn">Search</button>
+        </form>
+        </center>
+        <div class="result">
+            <center><div id="loader"></div></center>
+            <div id="error"></div>
+            <div class="data"></div>
+            <div id="result-data">
+                <p><strong>New Cases: </strong><span id="newCases"></span></p>
+                <p><strong>New Deaths: </strong><span id="newDeaths"></span></p>
+                <p><strong>Total Cases: </strong><span id="TotalCases"></span></p>
+                <p><strong>Total recovered: </strong><span id="Totalrecovered"></span></p>
+                <p><strong>Total Deaths: </strong><span id="TotalDeaths"></span></p>
+                <p><strong>Total Tests: </strong><span id="TotalTests"></span></p>
+                <center><span id="safe">Stay Safe Stay Healthy!</span></center>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
